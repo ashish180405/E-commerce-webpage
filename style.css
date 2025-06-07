@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header section */
+/* Head */
+.head{
+    background-color: #806BDC;
+    height: 60px;
+}
+
+.head a{
+    text-decoration: none;
+}
+
+.head a p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Nav section */
+.nav-row{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-col img{
+    height: 70px
+}
+
+.nav-col p{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.nav-col p:hover{
+    color: #806BDC;
+    cursor: pointer;
+}
+
+/* main section */
+
+/* main 1 */
+.main-one{
+    background-color: lightgray;
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 5px;
+}
+
+.main-one .img img, .table table{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.main-one .img img{
+    cursor: pointer;
+}
+
+.table table th, td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.table table{
+    border-collapse: collapse;
+}
+
+.table table th{
+    background-color: #806BDC;
+}
+
+table tr td span{
+    text-decoration: line-through;
+}
+
+.main-one p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* main 2 */
+.main-two{
+    color: grey;
+    padding: 20px;
+    text-align: justify;
+}
+
+.main-heading, .festive-sales, .payment{
+    margin: 20px;
+}
+
+.main-heading h3, .main-heading p{
+    padding: 10px;
+}
+
+.festive-sales .level{
+    padding: 10px;
+}
+
+.festive-sales .level ul{
+    padding-left: 17px;
+}
+
+.festive-sales .sales{
+    padding: 10px;
+}
+
+.payment h4, .payment p{
+    padding: 8px;
+}
+
+/* footer section */
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+    padding-top: 40px;
+}
